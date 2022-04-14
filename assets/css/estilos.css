@@ -1,0 +1,71 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/Foto_Curriculum.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin-top: 50px!important
+}
+
+/* Mis trabajos */
+
+#trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* tamaño logo*/
+.logo img{
+  width: 30%;
+  height: 30%;
+ /* min-width: 100px;*/
+}
+
+.introduccion{
+  text-align: left;
+}
+
+.lista1 ul{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*.lista1 li{
+  text-align: center;
+  display: inline-block;
+}*/
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+.datosPersonales td{
+  text-align: left;
+  padding-left: 10px;
+}
+
+#estudios {
+  padding-top: 50px;
+}
