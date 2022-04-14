@@ -8,8 +8,9 @@ body {
   background-image: url("../img/Foto_Curriculum.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
-  margin-top: 50px!important
+  background-position: right;
+  margin-top: 50px!important;
+  
 }
 
 /* Mis trabajos */
